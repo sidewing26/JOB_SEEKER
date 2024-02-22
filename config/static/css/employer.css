@@ -1,0 +1,76 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    background-color: #28a745;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.main-header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #000;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,.1);
+}
+
+.dashboard-intro h2 {
+    color: #28a745;
+}
+
+.dashboard-options {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.option-card {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+}
+
+.option-card:hover {
+    transform: translateY(-5px);
+}
+
+.option-card h3 {
+    margin-top: 0;
+    color: #28a745;
+}
+
+.option-card p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
